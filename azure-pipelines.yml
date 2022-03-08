@@ -1,12 +1,7 @@
 trigger:
 - main
 
-jobs:
-- job: 'Test'
-  pool:
-    vmImage: 'ubuntu-latest' 
-    
-steps :
+steps:
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'
