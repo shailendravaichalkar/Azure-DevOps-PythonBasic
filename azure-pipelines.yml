@@ -1,3 +1,6 @@
+trigger:
+- main
+
 jobs:
 - job: 'Test'
   pool:
