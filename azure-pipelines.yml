@@ -5,6 +5,8 @@ jobs:
 - job: 'Test'
   pool:
     vmImage: 'ubuntu-latest' 
+    
+steps :
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'
